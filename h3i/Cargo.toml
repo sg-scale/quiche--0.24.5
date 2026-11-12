@@ -21,7 +21,7 @@ sync = ["dep:quiche"]
 async = ["dep:tokio-quiche", "dep:buffer-pool", "dep:tokio"]
 
 [dependencies]
-clap = "3"
+clap = "4"
 env_logger = { workspace = true }
 inquire = "0.6.2"
 log = { workspace = true, features = ["std"] }
